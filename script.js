@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
- const API_BASE = "http://localhost:2200"; // must match the backend port
+ const API_BASE = "https://mental-health-risk-prediction-g4va.onrender.com"; // must match the backend port
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
